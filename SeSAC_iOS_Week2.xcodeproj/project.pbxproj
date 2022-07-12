@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF06560B287D21B400B5F1F0 /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF06560A287D21B400B5F1F0 /* SegmentedViewController.swift */; };
 		BF65E4DC287BA3EB00E3D2FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65E4DB287BA3EB00E3D2FF /* AppDelegate.swift */; };
 		BF65E4DE287BA3EB00E3D2FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65E4DD287BA3EB00E3D2FF /* SceneDelegate.swift */; };
 		BF65E4E0287BA3EB00E3D2FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65E4DF287BA3EB00E3D2FF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF06560A287D21B400B5F1F0 /* SegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
 		BF65E4D8287BA3EB00E3D2FF /* SeSAC_iOS_Week2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_iOS_Week2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF65E4DB287BA3EB00E3D2FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF65E4DD287BA3EB00E3D2FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				BF65E4DD287BA3EB00E3D2FF /* SceneDelegate.swift */,
 				BF65E4DF287BA3EB00E3D2FF /* ViewController.swift */,
 				BF65E4E1287BA3EB00E3D2FF /* Main.storyboard */,
+				BF06560A287D21B400B5F1F0 /* SegmentedViewController.swift */,
 				BF65E4E4287BA3EC00E3D2FF /* Assets.xcassets */,
 				BF65E4E6287BA3EC00E3D2FF /* LaunchScreen.storyboard */,
 				BF65E4E9287BA3EC00E3D2FF /* Info.plist */,
@@ -141,6 +144,7 @@
 				BF65E4E0287BA3EB00E3D2FF /* ViewController.swift in Sources */,
 				BF65E4DC287BA3EB00E3D2FF /* AppDelegate.swift in Sources */,
 				BF65E4DE287BA3EB00E3D2FF /* SceneDelegate.swift in Sources */,
+				BF06560B287D21B400B5F1F0 /* SegmentedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
