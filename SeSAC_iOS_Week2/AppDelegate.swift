@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift // 1번
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        IQKeyboardManager.shared.enable = true // 2번
+        // 키보드 영역에 텍스트필드가 있어서 가려지는 경우, 텍스트필드를 위로 올려줌..
         return true
     }
 

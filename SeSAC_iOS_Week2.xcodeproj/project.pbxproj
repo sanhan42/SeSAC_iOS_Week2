@@ -8,16 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		BF06560B287D21B400B5F1F0 /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF06560A287D21B400B5F1F0 /* SegmentedViewController.swift */; };
+		BF4283E82880E83F004973AE /* Transition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4283E72880E83F004973AE /* Transition.storyboard */; };
+		BF4283EA2880EFC3004973AE /* TransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4283E92880EFC3004973AE /* TransitionFirstViewController.swift */; };
+		BF4283EC2880FE03004973AE /* TransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4283EB2880FE03004973AE /* TransitionSecondViewController.swift */; };
 		BF65E4DC287BA3EB00E3D2FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65E4DB287BA3EB00E3D2FF /* AppDelegate.swift */; };
 		BF65E4DE287BA3EB00E3D2FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65E4DD287BA3EB00E3D2FF /* SceneDelegate.swift */; };
 		BF65E4E0287BA3EB00E3D2FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65E4DF287BA3EB00E3D2FF /* ViewController.swift */; };
 		BF65E4E3287BA3EB00E3D2FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF65E4E1287BA3EB00E3D2FF /* Main.storyboard */; };
 		BF65E4E5287BA3EC00E3D2FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF65E4E4287BA3EC00E3D2FF /* Assets.xcassets */; };
 		BF65E4E8287BA3EC00E3D2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF65E4E6287BA3EC00E3D2FF /* LaunchScreen.storyboard */; };
+		BFA8CAB8287FA69700EB68A0 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA8CAB7287FA69700EB68A0 /* Setting.storyboard */; };
+		BFA8CABA287FA81700EB68A0 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA8CAB9287FA81700EB68A0 /* Search.storyboard */; };
+		BFA8CABD287FAEDC00EB68A0 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = BFA8CABC287FAEDC00EB68A0 /* SideMenu */; };
+		BFA8CAC0287FAF5C00EB68A0 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = BFA8CABF287FAF5C00EB68A0 /* FSCalendar */; };
+		BFA8CAC3287FAFB400EB68A0 /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = BFA8CAC2287FAFB400EB68A0 /* TextFieldEffects */; };
+		BFA8CAC6287FBE4D00EB68A0 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFA8CAC5287FBE4D00EB68A0 /* IQKeyboardManagerSwift */; };
+		BFA8CAC8287FC47C00EB68A0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA8CAC7287FC47C00EB68A0 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF06560A287D21B400B5F1F0 /* SegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
+		BF4283E72880E83F004973AE /* Transition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transition.storyboard; sourceTree = "<group>"; };
+		BF4283E92880EFC3004973AE /* TransitionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionFirstViewController.swift; sourceTree = "<group>"; };
+		BF4283EB2880FE03004973AE /* TransitionSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSecondViewController.swift; sourceTree = "<group>"; };
 		BF65E4D8287BA3EB00E3D2FF /* SeSAC_iOS_Week2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_iOS_Week2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF65E4DB287BA3EB00E3D2FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF65E4DD287BA3EB00E3D2FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,9 @@
 		BF65E4E4287BA3EC00E3D2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF65E4E7287BA3EC00E3D2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF65E4E9287BA3EC00E3D2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA8CAB7287FA69700EB68A0 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		BFA8CAB9287FA81700EB68A0 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		BFA8CAC7287FC47C00EB68A0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +49,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA8CAC3287FAFB400EB68A0 /* TextFieldEffects in Frameworks */,
+				BFA8CAC6287FBE4D00EB68A0 /* IQKeyboardManagerSwift in Frameworks */,
+				BFA8CABD287FAEDC00EB68A0 /* SideMenu in Frameworks */,
+				BFA8CAC0287FAF5C00EB68A0 /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF4283E62880E81C004973AE /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				BF4283E72880E83F004973AE /* Transition.storyboard */,
+				BF4283E92880EFC3004973AE /* TransitionFirstViewController.swift */,
+				BF4283EB2880FE03004973AE /* TransitionSecondViewController.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
 		BF65E4CF287BA3EB00E3D2FF = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +88,14 @@
 		BF65E4DA287BA3EB00E3D2FF /* SeSAC_iOS_Week2 */ = {
 			isa = PBXGroup;
 			children = (
+				BF4283E62880E81C004973AE /* Transition */,
 				BF65E4DB287BA3EB00E3D2FF /* AppDelegate.swift */,
 				BF65E4DD287BA3EB00E3D2FF /* SceneDelegate.swift */,
 				BF65E4DF287BA3EB00E3D2FF /* ViewController.swift */,
 				BF65E4E1287BA3EB00E3D2FF /* Main.storyboard */,
+				BFA8CAB7287FA69700EB68A0 /* Setting.storyboard */,
+				BFA8CAC7287FC47C00EB68A0 /* SearchViewController.swift */,
+				BFA8CAB9287FA81700EB68A0 /* Search.storyboard */,
 				BF06560A287D21B400B5F1F0 /* SegmentedViewController.swift */,
 				BF65E4E4287BA3EC00E3D2FF /* Assets.xcassets */,
 				BF65E4E6287BA3EC00E3D2FF /* LaunchScreen.storyboard */,
@@ -86,6 +120,12 @@
 			dependencies = (
 			);
 			name = SeSAC_iOS_Week2;
+			packageProductDependencies = (
+				BFA8CABC287FAEDC00EB68A0 /* SideMenu */,
+				BFA8CABF287FAF5C00EB68A0 /* FSCalendar */,
+				BFA8CAC2287FAFB400EB68A0 /* TextFieldEffects */,
+				BFA8CAC5287FBE4D00EB68A0 /* IQKeyboardManagerSwift */,
+			);
 			productName = SeSAC_iOS_Week2;
 			productReference = BF65E4D8287BA3EB00E3D2FF /* SeSAC_iOS_Week2.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +154,12 @@
 				Base,
 			);
 			mainGroup = BF65E4CF287BA3EB00E3D2FF;
+			packageReferences = (
+				BFA8CABB287FAEDC00EB68A0 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				BFA8CABE287FAF5C00EB68A0 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				BFA8CAC1287FAFB400EB68A0 /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+				BFA8CAC4287FBE4D00EB68A0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = BF65E4D9287BA3EB00E3D2FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,8 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF65E4E8287BA3EC00E3D2FF /* LaunchScreen.storyboard in Resources */,
+				BF4283E82880E83F004973AE /* Transition.storyboard in Resources */,
 				BF65E4E5287BA3EC00E3D2FF /* Assets.xcassets in Resources */,
 				BF65E4E3287BA3EB00E3D2FF /* Main.storyboard in Resources */,
+				BFA8CAB8287FA69700EB68A0 /* Setting.storyboard in Resources */,
+				BFA8CABA287FA81700EB68A0 /* Search.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA8CAC8287FC47C00EB68A0 /* SearchViewController.swift in Sources */,
 				BF65E4E0287BA3EB00E3D2FF /* ViewController.swift in Sources */,
+				BF4283EA2880EFC3004973AE /* TransitionFirstViewController.swift in Sources */,
 				BF65E4DC287BA3EB00E3D2FF /* AppDelegate.swift in Sources */,
 				BF65E4DE287BA3EB00E3D2FF /* SceneDelegate.swift in Sources */,
+				BF4283EC2880FE03004973AE /* TransitionSecondViewController.swift in Sources */,
 				BF06560B287D21B400B5F1F0 /* SegmentedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +347,7 @@
 				INFOPLIST_FILE = SeSAC_iOS_Week2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Setting;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +374,7 @@
 				INFOPLIST_FILE = SeSAC_iOS_Week2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Setting;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +412,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFA8CABB287FAEDC00EB68A0 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		BFA8CABE287FAF5C00EB68A0 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		BFA8CAC1287FAFB400EB68A0 /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		BFA8CAC4287FBE4D00EB68A0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFA8CABC287FAEDC00EB68A0 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA8CABB287FAEDC00EB68A0 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		BFA8CABF287FAF5C00EB68A0 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA8CABE287FAF5C00EB68A0 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+		BFA8CAC2287FAFB400EB68A0 /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA8CAC1287FAFB400EB68A0 /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+		BFA8CAC5287FBE4D00EB68A0 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA8CAC4287FBE4D00EB68A0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BF65E4D0287BA3EB00E3D2FF /* Project object */;
 }

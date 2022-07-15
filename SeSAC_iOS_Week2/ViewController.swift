@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         greenView.layer.cornerRadius = 10
         greenView.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
 //        orangeView.clipsToBounds = false // shadow
-        // Do any additional setup after loading the view.
     }
 
 
